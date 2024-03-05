@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <form name="calculation">
+      <h1>Калькулятор сложения и вычитания</h1>
+      <label
+        >Введите первое число:
+        <input id="firstNumber" type="text" value="0" required />
+      </label>
+      <p>Веберите сложение или вычитание</p>
+      <div id="operations">
+        + <input type="radio" name="operations" value="plus" checked />
+        <br />
+        - <input type="radio" name="operations" value="minus" />
+      </div>
+      <label
+        >Введите второе число:
+        <input id="secondNumber" type="text" value="0" required />
+      </label>
+      <br />
+      <input type="submit" id="sendForm" value="Рассчитать" />
+      <br />
+      <div id="result"></div>
+    </form>
+    <div id="answer"></div>
+    <div id="testResult"></div>
+    <br />
+    <input id="runTests" type="button" value="Прогнать тесты" />
+    <script src="./src/script.js"></script>
+    <script src="./src/dataForTests.js"></script>
+  </body>
+</html>

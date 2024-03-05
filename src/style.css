@@ -1,0 +1,9 @@
+#testResult div:first-child {
+  font-weight: bold;
+}
+
+input{
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px 0;
+}
